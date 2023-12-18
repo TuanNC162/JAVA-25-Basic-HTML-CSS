@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/Assets/CSS/BT2-1.css">
+    <title>Bảng đăng ký</title>
+    <style>
+        table, tr, td, th {
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">ĐĂNG KÝ</th>
+            </tr>
+            <tr> 
+                <td>Fullname</td>
+                <td> <input style="width: 96%;" type="text" placeholder="Nhập fullname"> </td>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td> <input style="width: 96%;" type="text" placeholder="Nhập tên"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td> <input style="width: 96%;" type="text" placeholder="Nhập mật khẩu"></td>
+            </tr>
+            <tr>
+                <td>Nhập lại Password</td>
+                <td> <input style="width: 96%;" type="text" placeholder="Nhập lại mật khẩu"></td>
+            </tr>
+            <tr>
+                <td>Giới tính</td>
+                <td>
+                    <input type="radio" id="Nam" name="Giới tính" value="Nam">Nam
+                    <input type="radio" id="Nữ" name="Giới tính" value="Nữ">Nữ
+                </td>
+            </tr>
+            <tr>
+                <td>Ngày sinh</td>
+                <td>
+                    <span>
+                        <select name="" id="">
+                            <option value="Ngày 1">Ngày 1</option>
+                            <option value="Ngày 1">Ngày 2</option>
+                            <option value="Ngày 1">Ngày 3</option>
+                            <option value="Ngày 1">Ngày 4</option>
+                            <option value="Ngày 1">Ngày 5</option>
+                        </select>
+                    </span>
+                    <span>
+                        <select name="" id="">
+                            <option value="Tháng 1">Tháng 1</option>
+                            <option value="Tháng 2">Tháng 2</option>
+                            <option value="Tháng 3">Tháng 3</option>
+                            <option value="Tháng 4">Tháng 4</option>
+                            <option value="Tháng 5">Tháng 5</option>
+                        </select>
+                    </span>
+                    <span>
+                        <select name="" id="">
+                            <option value="Năm 2018">Năm 2018</option>
+                            <option value="Năm 2019">Năm 2019</option>
+                            <option value="Năm 2020">Năm 2020</option>
+                            <option value="Năm 2021">Năm 2021</option>
+                            <option value="Năm 2022">Năm 2022</option>
+                        </select>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><textarea name="" id="" cols="30" rows="4"></textarea>></td>
+            </tr>
+            <tr>
+                <td>Avatar</td>
+                <td><input type="button" value="Choose File"> No file chosen</td>
+            </tr>
+            <tr>
+                <td>Sở Thích</td>
+                <td><input type="checkbox">Xem phim
+                    <input type="checkbox">Thể Thao
+                    <input type="checkbox">Web
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="Bottom">
+                        <div style="text-align: center;">
+                            <button>Reset</button>
+                            <button>OK</button>
+                        </div>
+                    </div>
+                    
+                </td>
+            </tr>
+                
+        </thead>
+    </table>
+</body>
+</html>
