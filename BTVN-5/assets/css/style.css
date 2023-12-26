@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 1500px;
+    height: 700px;
+    background-color: #f0f2f5;
+    margin: auto;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-right {
+    width: 460px;
+    height: 430px;
+    background-color: white;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 850px;
+    border-radius: 5px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+
+.user-pass {
+    margin-top: 25px;
+    padding-left: 30px;
+}
+
+.username {
+    width: 400px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.password {
+    width: 400px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.card-lock {
+    padding-left: 30px;
+    margin-top: 50px;
+    
+}
+
+.lock-in {
+    font-size: 25px;
+    width: 400px;
+    height: 60px;
+    border: none;
+    border-radius: 6px;
+    background-color: #1877f2;
+    color: white;
+    
+}
+
+/* .abc{
+    background-color: gray;
+
+} */
+
+.card-pass{
+    display: flex;
+    justify-content: center;
+}
+
+.forgot-pass {
+    font-size: 20px;
+    color: #1877f2;
+    border: none;
+    margin-top: 20px;
+    background-color: white;
+
+}
+
+.account-new {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+    
+}
+
+.account {
+    width: 50%;
+    height: 60px;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+}
+
+.card-left {
+    position: absolute;
+    margin-top: 200px ;
+    padding-left: 270px;
+}
+
+
+.text-1 {
+    color: #1877f2;
+    font-size: 65px;
+    font-weight: 800;
+}
+
+.text-2 {
+    font-size: 30px;
+    
+}
+
+
+.text-note {
+    font-size: 15px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.text-note-1 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.fb-footer {
+    padding-top: 20px;
+  }
+  
+  .fb-footer-wrap {
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;
+    font-size: 12px;
+  }
+  
+  .list-language {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 8px;
+  }
+  
+  .list-language li:nth-child(1) {
+    padding-left: 0 !important;
+  }
+  
+  .list-language li {
+    padding-left: 10px;
+  }
+  
+  .dash-footer {
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .footer-childrent ul {
+    margin-left: -20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 2;
+  }
+  
+  .footer-childrent ul li {
+    margin-left: 20px;
+  }
+  
+  .copyright {
+    margin: 20px 0;
+    font-size: 11px;
+  }
+
