@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.banner {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1188px;
+  margin: auto;
+}
+
+.menu {
+  position: relative;
+  width: 202px;
+  height: 344px;
+  padding: 8px 0 12px 0;
+  background-color: #fff;
+}
+
+.menu ul li .item {
+  padding: 0 8px;
+  display: flex;
+  justify-content: space-between;
+  color: #757575;
+  font-size: 13px;
+  line-height: 27px;
+  cursor: pointer;
+}
+
+.menu ul li .item:hover {
+  color: #f36d00;
+  background-color: #eceff1;
+}
+
+.menu ul li .item span {
+  display: none;
+  font-size: 16px;
+}
+
+.menu ul li .item:hover span {
+  display: block;
+}
+
+.menu ul li .sub-menu-1 {
+  width: 202px;
+  height: 344px;
+  background-color: #fff;
+  box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+}
+
+.menu ul li .sub-menu-1 {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: -202px;
+  padding: 8px 0 12px 0;
+}
+
+.menu ul li:hover .sub-menu-1 {
+  display: block;
+}
+
+.menu ul li .sub-menu-1::before {
+  position: absolute;
+  left: -20px;
+  top: 8px;
+  height: 27px;
+  width: 20px;
+}
+
+.sub-menu-1 li .item-2 {
+  padding: 0 8px;
+  display: flex;
+  justify-content: space-between;
+  color: #757575;
+  font-size: 13px;
+  line-height: 27px;
+  cursor: pointer;
+}
+
+.sub-menu-1 li .item-2:hover {
+  color: #f36d00;
+  background-color: #eceff1;
+}
+
+.sub-menu-1 li .item-2 span {
+  display: none;
+  font-size: 16px;
+}
+
+.sub-menu-1 li .item-2:hover span {
+  display: block;
+}
+
+.sub-menu-2 {
+  width: 202px;
+  height: 344px;
+  background-color: #fff;
+}
+
+.sub-menu-2 li {
+  padding: 0 8px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  color: #757575;
+  font-size: 13px;
+  line-height: 27px;
+  cursor: pointer;
+}
+
+.sub-menu-1 li .sub-menu-2 {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: -202px;
+  padding: 8px 0 12px 0;
+}
+
+.sub-menu-1 li:hover .sub-menu-2 {
+  display: block;
+}
+
+.sub-menu-2 li:hover {
+  color: #f36d00;
+  background-color: #eceff1;
+}
+
