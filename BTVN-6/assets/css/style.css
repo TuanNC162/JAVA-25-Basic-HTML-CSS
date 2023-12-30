@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.header {
+    background-color: white;
+    width: 100%;
+    height: 64px;
+    border-bottom: 1px solid gray;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999999;
+    
+}
+
+.container {
+    /* background-color: gray; */
+    width: 900px;
+    height: 700px;
+    margin: auto;
+    /*   */
+    position: relative;
+    z-index: 0;
+    margin-top: 50px;
+}
+
+.card-left {
+    /* background-color: rgb(207, 50, 50); */
+    position: absolute;
+    width: 455px;
+    height: 701px;
+    z-index: 2;
+}
+
+
+.text-left-1 {
+    font-size: 32px
+}
+
+.text-left-3 {
+    width: 415px;
+    height: 56px;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 5px;
+       
+}
+
+.text-left-2 {
+    margin-top: 30px;
+    
+}
+
+.text-left-4 {
+    margin-top: 22px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.click {
+    font-size: 16px;
+    line-height: 40px;
+    margin-top: 15px;
+    
+    
+}
+
+.nation {
+    background-color: rgb(249, 249, 249);
+    margin-top: 40px;
+    width: 100%;
+    height: 56px;
+    position: relative;
+}
+
+.nation-click {
+    position: absolute;
+
+}
+
+.coutry {
+    width: 415px;
+    height: 56px;
+}
+
+.next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 48px;
+    background-color: #1E64D4;
+    border-radius: 20px;
+    margin-top: 70px;
+    
+}
+
+.next-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+.card-right {
+    background-color: white;
+    position: absolute;
+    width: 455px;
+    height: 701px;
+    z-index: 2;
+    margin-left: 450px;
+    border-radius: 10px;
+    border: gray solid 2px;
+}
+
+.card-right-main {
+    width: 400px;
+    height: 643px;
+    
+}
+
+
+.card-right-head {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px 30px 30px;
+    border-bottom: 1px solid gray;
+
+}
+
+.icon a img {
+    width: 48px;
+    object-fit: cover;
+}
+
+.icon-text {
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text-head {
+    width: 237px;
+    height: 106px;
+}
+
+.text-head-1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text-head-2 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.card-right-body {
+    width: 400px;
+    
+}
+
+.other {
+    padding: 40px;
+    
+}
+
+.title-other {
+    margin: 0px 0 10px;
+}
+
+.title-other {
+    font-size: 32.5px;
+    font-weight: 400;
+    line-height: 2.25rem;
+}
+
+.logo-other img {
+    width: 222px;
+    height: 48px;
+    object-fit: cover;
+    margin: 0 0 0 -15px;
+}
+
+.list-other ul {
+    padding-left: 15px;
+}
+
+.list-other ul li {
+    margin: 16px 0 0 0;
+    padding: 0 0 0 10px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    list-style-image: url(https://www.gstatic.com/apps/signup/resources/ic_check.svg);
+}
